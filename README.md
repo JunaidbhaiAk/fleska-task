@@ -82,7 +82,7 @@ Prerequisites
 1. Clone the Repo
     Clone the repo by using command or download the repo
 
-    `git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+    `git clone https://github.com/JunaidbhaiAk/fleska-task`
 
 2 . Create Database
   Create a database in mysql first with any name but make sure to remember the name for future use Example -
@@ -92,10 +92,15 @@ Prerequisites
 3 . Starting Server
   - Now go to server dir - `cd server`
   - Create a .env file on the dir and copy and paste this config
+    
       PORT = 3000
-      DB_HOST = 'localhost' //provide your db host name 
+    
+      DB_HOST = 'localhost' //provide your db host name
+    
       DB_USER = 'root' // provide your db user name
+    
       DB_PASS = 'mysql123' //password for your db
+    
       DB_NAME = 'fleska_db' //name of the db which we created in previous step
   	
   - now run command `npm install`
